@@ -15,7 +15,7 @@
 @implementation RecipeBookViewController {
 
 NSArray *recipes;
-
+//@property (strong, nonatomic) NSArray *recipes;
 }
 
 - (void)didReceiveMemoryWarning
