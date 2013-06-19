@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD73851E17711F7800BF35A8 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD73851D17711F7800BF35A8 /* RecipeDetailViewController.m */; };
 		DD99A0361766855F004BB860 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99A0351766855F004BB860 /* UIKit.framework */; };
 		DD99A0381766855F004BB860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99A0371766855F004BB860 /* Foundation.framework */; };
 		DD99A03A1766855F004BB860 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99A0391766855F004BB860 /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD73851C17711F7800BF35A8 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		DD73851D17711F7800BF35A8 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 		DD99A0311766855F004BB860 /* RecipeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD99A0351766855F004BB860 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD99A0371766855F004BB860 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 				DD99A04A1766855F004BB860 /* RecipeBookViewController.h */,
 				DD99A04B1766855F004BB860 /* RecipeBookViewController.m */,
 				DD99A03C1766855F004BB860 /* Supporting Files */,
+				DD73851C17711F7800BF35A8 /* RecipeDetailViewController.h */,
+				DD73851D17711F7800BF35A8 /* RecipeDetailViewController.m */,
 			);
 			path = RecipeBook;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				DD99A0421766855F004BB860 /* main.m in Sources */,
 				DD99A0461766855F004BB860 /* RecipeBookAppDelegate.m in Sources */,
 				DD99A04C1766855F004BB860 /* RecipeBookViewController.m in Sources */,
+				DD73851E17711F7800BF35A8 /* RecipeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 				DD99A0511766855F004BB860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
