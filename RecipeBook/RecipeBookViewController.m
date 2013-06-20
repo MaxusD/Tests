@@ -7,6 +7,7 @@
 //
 
 #import "RecipeBookViewController.h"
+#import "RecipeDetailViewController.h"
 
 @interface RecipeBookViewController()
 
@@ -17,6 +18,8 @@
 NSArray *recipes;
 
 }
+
+@synthesize tableView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -40,25 +43,13 @@ NSArray *recipes;
     // e.g. self.myOutlet = nil;
 }
 
-//- (void)viewWillAppear:(BOOL)animated
-//{
-//    [super viewWillAppear:animated];
-//}
-//
-//- (void)viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//}
-//
-//- (void)viewWillDisappear:(BOOL)animated
-//{
-//	[super viewWillDisappear:animated];
-//}
-//
-//- (void)viewDidDisappear:(BOOL)animated
-//{
-//	[super viewDidDisappear:animated];
-//}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+        NSIndexPath* indexPath = [self.tableView indexPathForSelectedRow];
+        RecipeDetailViewController* destViewController = segue.destinationViewController;
+        destViewController.recipeName = [recipes objectAtIndex:indexPath.row];
+    }
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
