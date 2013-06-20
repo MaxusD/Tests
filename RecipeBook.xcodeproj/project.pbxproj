@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9A042F4177343F600D44F6C /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = D9A042F2177343F600D44F6C /* about.html */; };
+		D9A042F5177343F600D44F6C /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9A042F3177343F600D44F6C /* about.jpg */; };
 		DD73851E17711F7800BF35A8 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD73851D17711F7800BF35A8 /* RecipeDetailViewController.m */; };
 		DD99A0361766855F004BB860 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99A0351766855F004BB860 /* UIKit.framework */; };
 		DD99A0381766855F004BB860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99A0371766855F004BB860 /* Foundation.framework */; };
@@ -17,14 +19,14 @@
 		DD99A0491766855F004BB860 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD99A0471766855F004BB860 /* MainStoryboard.storyboard */; };
 		DD99A04C1766855F004BB860 /* RecipeBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99A04B1766855F004BB860 /* RecipeBookViewController.m */; };
 		DDA5089417726EBE001FB808 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA5089317726EBE001FB808 /* AboutViewController.m */; };
-		DDA5089617727549001FB808 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDA5089517727549001FB808 /* about.jpg */; };
-		DDA5089817727592001FB808 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = DDA5089717727592001FB808 /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9A042F117733D8500D44F6C /* RecipeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A042F2177343F600D44F6C /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = RecipeBook/about.html; sourceTree = "<group>"; };
+		D9A042F3177343F600D44F6C /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = RecipeBook/about.jpg; sourceTree = "<group>"; };
 		DD73851C17711F7800BF35A8 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		DD73851D17711F7800BF35A8 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
-		DD99A0311766855F004BB860 /* RecipeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RecipeBook.app; path = "/Users/apushenko/My Project/RecipeBook/build/Release-iphoneos/RecipeBook.app"; sourceTree = "<absolute>"; };
 		DD99A0351766855F004BB860 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD99A0371766855F004BB860 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD99A0391766855F004BB860 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		DD99A04B1766855F004BB860 /* RecipeBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeBookViewController.m; sourceTree = "<group>"; };
 		DDA5089217726EBE001FB808 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		DDA5089317726EBE001FB808 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		DDA5089517727549001FB808 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = "../../../../../Volumes/NO NAME/about.jpg"; sourceTree = "<group>"; };
-		DDA5089717727592001FB808 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = "../../../../../Volumes/NO NAME/about.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,11 @@
 		DD99A0261766855F004BB860 = {
 			isa = PBXGroup;
 			children = (
+				D9A042F2177343F600D44F6C /* about.html */,
+				D9A042F3177343F600D44F6C /* about.jpg */,
 				DD99A03B1766855F004BB860 /* RecipeBook */,
 				DD99A0341766855F004BB860 /* Frameworks */,
+				D9A042F117733D8500D44F6C /* RecipeBook.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +81,6 @@
 		DD99A03B1766855F004BB860 /* RecipeBook */ = {
 			isa = PBXGroup;
 			children = (
-				DDA5089717727592001FB808 /* about.html */,
-				DDA5089517727549001FB808 /* about.jpg */,
 				DD99A0441766855F004BB860 /* RecipeBookAppDelegate.h */,
 				DD99A0451766855F004BB860 /* RecipeBookAppDelegate.m */,
 				DD99A0471766855F004BB860 /* MainStoryboard.storyboard */,
@@ -122,7 +123,7 @@
 			);
 			name = RecipeBook;
 			productName = RecipeBook;
-			productReference = DD99A0311766855F004BB860 /* RecipeBook.app */;
+			productReference = D9A042F117733D8500D44F6C /* RecipeBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,8 +158,8 @@
 			files = (
 				DD99A0401766855F004BB860 /* InfoPlist.strings in Resources */,
 				DD99A0491766855F004BB860 /* MainStoryboard.storyboard in Resources */,
-				DDA5089617727549001FB808 /* about.jpg in Resources */,
-				DDA5089817727592001FB808 /* about.html in Resources */,
+				D9A042F4177343F600D44F6C /* about.html in Resources */,
+				D9A042F5177343F600D44F6C /* about.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
